@@ -1,6 +1,7 @@
+# lib/string_functions.py
+
 def return_string():
-    return ''
+    return "some_string"
 
 def interpolate_string(s):
-    return f'Hello, {s}!'
-    
+    return 'Hello, {}!'.format(s)
